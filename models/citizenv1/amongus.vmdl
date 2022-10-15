@@ -1,0 +1,114 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "prop_data"
+						game_keys = 
+						{
+							base = ""
+							allowstatic = false
+							bakelighting = true
+							damage_table = ""
+							"dmg.bullets" = -1.0
+							"dmg.club" = -1.0
+							"dmg.explosive" = -1.0
+							"dmg.fire" = -1.0
+							health = -1.0
+							spawn_motion_disabled = false
+						}
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "red color.vmat"
+								to = "models/citizen_materials/amongus.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = ""
+						surface_prop = "prop.plastic"
+						collision_prop = "default"
+						radius = 5.746939
+						point0 = [ 0.1234, -0.041354, 14.276337 ]
+						point1 = [ -0.297777, -0.135849, 8.529846 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						name = "_copy"
+						parent_bone = ""
+						surface_prop = "prop.plastic"
+						collision_prop = "default"
+						radius = 2.404546
+						point0 = [ 0.413103, -3.467355, 7.482757 ]
+						point1 = [ 0.037391, -3.55165, 2.356584 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						name = "_copy_copy"
+						parent_bone = ""
+						surface_prop = "prop.plastic"
+						collision_prop = "default"
+						radius = 2.404546
+						point0 = [ 0.413103, 3.749364, 7.482757 ]
+						point1 = [ 0.030401, 3.663501, 2.26122 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "prop.plastic"
+						collision_prop = "default"
+						origin = [ -6.951612, -0.052243, 9.780263 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 4.198713, 7.552373, 10.133595 ]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/amongus_raw/among us.FBX"
+						import_scale = 0.1
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = "physics_prop_model"
+		primary_associated_entity = "prop_physics"
+		anim_graph_name = ""
+	}
+}

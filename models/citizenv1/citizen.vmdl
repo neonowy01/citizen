@@ -1,0 +1,2109 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "13 - default slot #10.vmat"
+								to = "models/citizen/clothes/trousers_tracksuit.vmat"
+							},
+							{
+								from = "citizen_teeth.vmat"
+								to = "models/citizen/skin/citizen_teeth.vmat"
+							},
+							{
+								from = "citizen_skin.vmat"
+								to = "models/citizen/skin/citizen_skin.vmat"
+							},
+							{
+								from = "citizen_eyes.vmat"
+								to = "models/citizen/skin/citizen_eye.vmat"
+							},
+							{
+								from = "citizen_eyebrows.vmat"
+								to = "models/citizen/skin/citizen_eyebrow.vmat"
+							},
+							{
+								from = "13 - default slot #9.vmat"
+								to = "models/citizen/clothes/trousers_tracksuit.vmat"
+							},
+							{
+								from = "13 - default slot #8.vmat"
+								to = "models/citizen/clothes/trousers_tracksuit.vmat"
+							},
+							{
+								from = "13 - default slot #7.vmat"
+								to = "models/citizen/clothes/trousers_tracksuit.vmat"
+							},
+							{
+								from = "13 - default slot #6.vmat"
+								to = "models/citizen/clothes/trousers_tracksuit.vmat"
+							},
+							{
+								from = "13 - default slot #5.vmat"
+								to = "models/citizen/clothes/trousers_tracksuit.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = "models/citizen/clothes/trousers_tracksuit.vmat"
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "Chest"
+						filename = "models/citizen/citizen.fbx"
+						import_scale = 1.0
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"BodyChest_LOD0",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Legs"
+						filename = "models/citizen/citizen.fbx"
+						import_scale = 1.0
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"BodyLegs_LOD0",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Feet"
+						filename = "models/citizen/citizen.fbx"
+						import_scale = 1.0
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"BodyFeet_LOD0",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Hands"
+						filename = "models/citizen/citizen.fbx"
+						import_scale = 1.0
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"BodyHands_LOD0",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Head"
+						filename = "models/citizen/citizen.fbx"
+						import_scale = 1.0
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"BodyHead_LOD0",
+							]
+						}
+					},
+				]
+			},
+			{
+				_class = "JiggleBoneList"
+				children = 
+				[
+					{
+						_class = "JiggleBone"
+						disabled = true
+						jiggle_root_bone = "head"
+						jiggle_type = 1
+						has_yaw_constraint = true
+						has_pitch_constraint = true
+						has_angle_constraint = true
+						has_base_spring = true
+						allow_flex_length = true
+						invert_axes = true
+						has_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						length = 10.0
+						tip_mass = 4.0
+						angle_limit = 90.0
+						min_yaw = -45.0
+						max_yaw = 45.0
+						yaw_friction = 0.0
+						yaw_bounce = 1.0
+						min_pitch = -45.0
+						max_pitch = 45.0
+						pitch_friction = 0.0
+						pitch_bounce = 1.0
+						base_mass = 5.0
+						base_stiffness = 0.0
+						base_damping = 0.0
+						base_left_min = 0.0
+						base_left_max = 0.0
+						base_left_friction = 0.0
+						base_up_min = 0.0
+						base_up_max = 0.0
+						base_up_friction = 0.0
+						base_forward_min = 0.0
+						base_forward_max = 0.0
+						base_forward_friction = 0.0
+						yaw_stiffness = 0.0
+						yaw_damping = 0.0
+						pitch_stiffness = 0.0
+						pitch_damping = 0.0
+						along_stiffness = 0.0
+						along_damping = 0.0
+						radius0 = 10.0
+						radius1 = 10.0
+						point0 = [ 0.0, 0.0, 0.0 ]
+						point1 = [ 0.0, 10.0, 0.0 ]
+					},
+					{
+						_class = "JiggleBone"
+						disabled = true
+						jiggle_root_bone = "spine2"
+						jiggle_type = 1
+						has_yaw_constraint = true
+						has_pitch_constraint = true
+						has_angle_constraint = true
+						has_base_spring = true
+						allow_flex_length = true
+						invert_axes = true
+						has_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						length = 10.0
+						tip_mass = 10.0
+						angle_limit = 90.0
+						min_yaw = -45.0
+						max_yaw = 45.0
+						yaw_friction = 0.1
+						yaw_bounce = 0.1
+						min_pitch = -10.0
+						max_pitch = 10.0
+						pitch_friction = 0.0
+						pitch_bounce = 0.1
+						base_mass = 1.0
+						base_stiffness = 0.1
+						base_damping = 0.1
+						base_left_min = 0.0
+						base_left_max = 0.0
+						base_left_friction = 0.0
+						base_up_min = 0.0
+						base_up_max = 0.0
+						base_up_friction = 0.0
+						base_forward_min = 0.0
+						base_forward_max = 0.0
+						base_forward_friction = 0.0
+						yaw_stiffness = 0.1
+						yaw_damping = 0.1
+						pitch_stiffness = 0.1
+						pitch_damping = 0.1
+						along_stiffness = 0.1
+						along_damping = 0.1
+						radius0 = 10.0
+						radius1 = 10.0
+						point0 = [ 0.0, 0.0, 0.0 ]
+						point1 = [ 0.0, 0.0, 0.0 ]
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "citizenDance01"
+						activity_name = "ACT_VICTORY_DANCE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/citizen/animations/citizendance01.fbx"
+						start_frame = 0
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "Folder"
+						name = "walk"
+						children = 
+						[
+							{
+								_class = "AnimFile"
+								name = "Citizen@Walk"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/citizen/animations/Citizen@Walk.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Citizen@WalkE"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/citizen/animations/Citizen@WalkE.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Citizen@WalkNE"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/citizen/animations/Citizen@WalkNE.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Citizen@WalkNSick"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/citizen/animations/Citizen@WalkNSick.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Citizen@WalkNW"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/citizen/animations/Citizen@WalkNW.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Citizen@WalkS"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/citizen/animations/Citizen@WalkS.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Citizen@WalkSE"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/citizen/animations/Citizen@WalkSE.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Citizen@WalkSW"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/citizen/animations/Citizen@WalkSW.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Citizen@WalkW"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/citizen/animations/Citizen@WalkW.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+						]
+					},
+					{
+						_class = "Folder"
+						name = "run"
+						children = 
+						[
+							{
+								_class = "AnimFile"
+								name = "Citizen@Run"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/citizen/animations/Citizen@Run.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Citizen@RunE"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/citizen/animations/Citizen@RunE.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Citizen@RunJumpLand"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/citizen/animations/Citizen@RunJumpLand.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Citizen@RunNE"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/citizen/animations/Citizen@RunNE.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Citizen@RunNW"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/citizen/animations/Citizen@RunNW.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Citizen@RunS"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/citizen/animations/Citizen@RunS.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Citizen@RunSE"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/citizen/animations/Citizen@RunSE.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Citizen@RunSW"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/citizen/animations/Citizen@RunSW.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Citizen@RunW"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/citizen/animations/Citizen@RunW.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+						]
+					},
+					{
+						_class = "Folder"
+						name = "fall"
+						children = 
+						[
+							{
+								_class = "AnimFile"
+								name = "Citizen@Fall"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/citizen/animations/Citizen@Fall.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Citizen@FallPanic"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/citizen/animations/Citizen@FallPanic.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+						]
+					},
+					{
+						_class = "Folder"
+						name = "jump"
+						children = 
+						[
+							{
+								_class = "AnimFile"
+								name = "jump"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.1
+								fade_out_time = 0.1
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/citizen/animations/Citizen@IdleJump.fbx"
+								start_frame = 4
+								end_frame = 24
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Citizen@RunJumpLand1"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/citizen/animations/Citizen@RunJumpLand.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+						]
+					},
+					{
+						_class = "Folder"
+						name = "idle"
+						children = 
+						[
+							{
+								_class = "AnimFile"
+								name = "Citizen@Idle"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/citizen/animations/Citizen@Idle.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Citizen@ShuffleFeet"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = "legs"
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/citizen/animations/Citizen@ShuffleFeet.fbx"
+								start_frame = 0
+								end_frame = 30
+								framerate = -1.0
+								reverse = false
+							},
+						]
+					},
+					{
+						_class = "Folder"
+						name = "ducked"
+						children = 
+						[
+							{
+								_class = "AnimFile"
+								name = "Citizen@CrouchIdle"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/citizen/animations/Citizen@CrouchIdle.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Citizen@CrouchWalkE"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/citizen/animations/Citizen@CrouchWalkE.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Citizen@CrouchWalkN"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/citizen/animations/Citizen@CrouchWalkN.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Citizen@CrouchWalkNE"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/citizen/animations/Citizen@CrouchWalkNE.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Citizen@CrouchWalkNW"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/citizen/animations/Citizen@CrouchWalkNW.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Citizen@CrouchWalkS"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/citizen/animations/Citizen@CrouchWalkS.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Citizen@CrouchWalkSE"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/citizen/animations/Citizen@CrouchWalkSE.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Citizen@CrouchWalkSW"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/citizen/animations/Citizen@CrouchWalkSW.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "Citizen@CrouchWalkW"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = ""
+										motion_type = "Single"
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/citizen/animations/Citizen@CrouchWalkW.fbx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+						]
+					},
+				]
+				default_root_bone_name = ""
+			},
+			{
+				_class = "ModelModifierList"
+				children = 
+				[
+					{
+						_class = "ModelModifier_ScaleAndMirror"
+						scale = 0.4
+						mirror_x = false
+						mirror_y = false
+						mirror_z = false
+						flip_bone_forward = false
+						swap_left_and_right_bones = false
+					},
+				]
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "MovementSettings"
+						movementsettings = 
+						{
+							name = ""
+							speeds = [  ]
+							runspeed = 320.0
+							walkspeed = 150.0
+							maxSpringTension = 100.0
+							springConstant = 10.0
+							useSmoothPaths = true
+							useMotionDamping = false
+							sharpStartAngle = 180.0
+							m_vTraceScale = [ 1.0, 1.0, 1.0 ]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "LookAt"
+						lookat_chain = 
+						{
+							name = ""
+							bones = 
+							[
+								{
+									name = "head"
+									weight = 1.0
+								},
+								{
+									name = "neck"
+									weight = 0.892
+								},
+								{
+									name = "spine3"
+									weight = 0.392
+								},
+								{
+									name = "spine2"
+									weight = 0.125
+								},
+							]
+						}
+					},
+					{
+						_class = "Feet"
+						children = 
+						[
+							{
+								_class = "Foot"
+								name = "left_foot"
+								anklebone = "l_foot"
+								toebone = "l_toes"
+								balloffset = [ 0.0, -4.0, 6.0 ]
+								heeloffset = [ 0.0, -4.0, -2.0 ]
+								autolevel = false
+								traceheight = 40.0
+								traceradius = 0.5
+							},
+							{
+								_class = "Foot"
+								name = "right_foot"
+								anklebone = "r_foot"
+								toebone = "r_toes"
+								balloffset = [ 0.0, -4.0, 6.0 ]
+								heeloffset = [ 0.0, -4.0, -2.0 ]
+								autolevel = false
+								traceheight = 40.0
+								traceradius = 0.5
+							},
+							{
+								_class = "SlopeTrace"
+								m_Settings = 
+								{
+									m_vTraceOffset = [ 0.0, 0.0, 10.0 ]
+								}
+							},
+						]
+						locktolerance = 0.8
+						heighttolerance = 1.5
+						sanitizetrajectories = true
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "head"
+						children = 
+						[
+							{
+								_class = "HitboxCapsule"
+								parent_bone = "head"
+								surface_property = ""
+								translation_only = false
+								group_id = 1
+								radius = 18.0
+								point0 = [ -0.08321, 4.451077, 1.650314 ]
+								point1 = [ 0.016039, 10.387949, 1.368271 ]
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "forward"
+						parent_bone = "rig"
+						relative_origin = [ 0.0, 48.098526, 0.0 ]
+						relative_angles = [ -90.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+			{
+				_class = "IKData"
+				children = 
+				[
+					{
+						_class = "IKChain"
+						name = "l_foot"
+						children = 
+						[
+							{
+								_class = "IKChainJoint"
+								name = "l_hip"
+								children = 
+								[
+									{
+										_class = "IKChainJoint"
+										name = "l_knee"
+										children = 
+										[
+											{
+												_class = "IKChainJoint"
+												name = "l_foot1"
+												bone = "l_foot"
+											},
+											{
+												_class = "IKJointConstraint_Hinge"
+												constrained_joint = ""
+												hinge_axis = "Up"
+												min_radians = 0.0
+												max_radians = 2.094395
+											},
+										]
+										bone = "l_knee"
+									},
+								]
+								bone = "l_hip"
+							},
+						]
+						m_bDoBonesOrientAlongPositiveX = true
+						"m_DefaultSolverSettings.m_nNumIterations" = 6
+						"m_DefaultSolverSettings.m_SolverType " = "IKSOLVER_TwoBone"
+						"m_DefaultTargetSettings.m_Bone" = 
+						{
+							m_Name = "l_foot_ik"
+						}
+						"m_DefaultTargetSettings.m_TargetSource" = "Bone"
+						"m_Data.m_DefaultTargetSettings.m_AnimgraphParameterNamePosition" = 
+						{
+							m_id = 4294967295
+						}
+						"m_Data.m_EndEffectorFixedOffsetAttachment" = 
+						{
+							m_Name = ""
+						}
+						"m_Data.m_bParentJointRequiresAlignment" = true
+					},
+					{
+						_class = "IKChain"
+						name = "r_foot"
+						children = 
+						[
+							{
+								_class = "IKChainJoint"
+								name = "l_hip1"
+								children = 
+								[
+									{
+										_class = "IKChainJoint"
+										name = "l_knee1"
+										children = 
+										[
+											{
+												_class = "IKChainJoint"
+												name = "l_foot3"
+												bone = "r_foot"
+											},
+											{
+												_class = "IKJointConstraint_Hinge"
+												constrained_joint = ""
+												hinge_axis = "Up"
+												min_radians = 0.0
+												max_radians = 2.094395
+											},
+										]
+										bone = "r_knee"
+									},
+								]
+								bone = "r_hip"
+							},
+						]
+						m_bDoBonesOrientAlongPositiveX = true
+						"m_DefaultSolverSettings.m_nNumIterations" = 6
+						"m_DefaultSolverSettings.m_SolverType " = "IKSOLVER_TwoBone"
+						"m_DefaultTargetSettings.m_Bone" = 
+						{
+							m_Name = "r_foot_ik"
+						}
+						"m_DefaultTargetSettings.m_TargetSource" = "Bone"
+						"m_Data.m_DefaultTargetSettings.m_AnimgraphParameterNamePosition" = 
+						{
+							m_id = 4294967295
+						}
+						"m_Data.m_EndEffectorFixedOffsetAttachment" = 
+						{
+							m_Name = ""
+						}
+						"m_Data.m_bParentJointRequiresAlignment" = true
+					},
+					{
+						_class = "IKRigBiped"
+						initial_master_blend_amount = 1.0
+						abs_origin_drop_height = 24.0
+						abs_origin_drop_height_spring_strength = 500.0
+						default_tilt_spring_strength = 5.0
+						tilt_bone = "pelvis"
+						animgraph_master_blend_parameter_name = ""
+						system = "IKSYSTEMTYPE_Animgraph"
+					},
+				]
+			},
+			{
+				_class = "PoseParamList"
+				children = 
+				[
+					{
+						_class = "PoseParam"
+						name = "move_yaw"
+						poseparam_min = 0.0
+						poseparam_max = 1.0
+						poseparam_looping = false
+						poseparam_loop = 0.0
+					},
+				]
+			},
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					{
+						_class = "Bone"
+						name = "r_foot_ik"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						do_not_discard = true
+					},
+					{
+						_class = "Bone"
+						name = "l_foot_ik"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						do_not_discard = true
+					},
+				]
+			},
+			{
+				_class = "BodyGroupList"
+				children = 
+				[
+					{
+						_class = "BodyGroup"
+						name = "Chest"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"Chest",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Legs"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"Legs",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Feet"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"Feet",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Hands"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"Hands",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Head"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"Head",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+				]
+			},
+			{
+				_class = "WeightListList"
+				children = 
+				[
+					{
+						_class = "WeightList"
+						name = "legs"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "l_hip"
+								weight = 1.0
+							},
+							{
+								bone = "r_hip"
+								weight = 1.0
+							},
+							{
+								bone = "spine1"
+								weight = 0.081448
+							},
+							{
+								bone = "spine2"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = -1.0
+						morph_weights = 
+						[
+							{
+								morph = "Mouth_Ooo"
+								weight = 0.0
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "PhysicsJointList"
+				children = 
+				[
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "pelvis"
+						child_body = "spine1"
+						anchor_origin = [ 0.154296, 4.141355, 2.216795 ]
+						anchor_angles = [ 0.0, 0.0, -90.0 ]
+						collision_enabled = false
+						friction = 3.0
+						enable_swing_limit = true
+						swing_limit = 4.63
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -1.33
+						max_twist_angle = 4.63
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "spine1"
+						child_body = "spine3"
+						anchor_origin = [ 0.018971, 6.679223, 2.133854 ]
+						anchor_angles = [ 0.0, 0.0, -90.0 ]
+						collision_enabled = false
+						friction = 3.0
+						enable_swing_limit = true
+						swing_limit = 4.63
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -1.33
+						max_twist_angle = 4.63
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "spine3"
+						child_body = "head"
+						anchor_origin = [ 0.1856, 8.219675, 2.083505 ]
+						anchor_angles = [ 0.0, 0.0, -90.0 ]
+						collision_enabled = false
+						friction = 2.0
+						enable_swing_limit = true
+						swing_limit = 46.98
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -1.33
+						max_twist_angle = 4.63
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "pelvis"
+						child_body = "l_hip"
+						anchor_origin = [ 4.498632, -3.104003, 0.093086 ]
+						anchor_angles = [ -3.263539, 3.605116, 75.057671 ]
+						collision_enabled = false
+						friction = 1.0
+						enable_swing_limit = true
+						swing_limit = 21.200001
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -1.04
+						max_twist_angle = 2.58
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "pelvis"
+						child_body = "r_hip"
+						anchor_origin = [ -4.908487, -2.514312, 0.09233 ]
+						anchor_angles = [ -5.120472, -5.227554, 79.226532 ]
+						collision_enabled = false
+						friction = 1.0
+						enable_swing_limit = true
+						swing_limit = 21.200001
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -1.04
+						max_twist_angle = 2.58
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "l_hip"
+						child_body = "l_knee"
+						anchor_origin = [ -0.459403, -15.155362, 1.187232 ]
+						anchor_angles = [ -1.592157, 3.112864, 19.058857 ]
+						collision_enabled = false
+						friction = 1.0
+						enable_swing_limit = true
+						swing_limit = 19.190001
+						swing_offset_angle = [ 0.0, 0.0, 90.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -1.33
+						max_twist_angle = 0.66
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "r_hip"
+						child_body = "r_knee"
+						anchor_origin = [ -0.459403, -15.155362, 1.187232 ]
+						anchor_angles = [ 2.881941, -5.674558, 24.4492 ]
+						collision_enabled = false
+						friction = 1.0
+						enable_swing_limit = true
+						swing_limit = 19.190001
+						swing_offset_angle = [ 0.0, 0.0, 90.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -1.33
+						max_twist_angle = 0.66
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "spine3"
+						child_body = "l_shoulder"
+						anchor_origin = [ 6.318921, 4.569209, -0.307753 ]
+						anchor_angles = [ 0.0, 45.0, 90.0 ]
+						collision_enabled = false
+						friction = 1.0
+						enable_swing_limit = true
+						swing_limit = 21.17
+						swing_offset_angle = [ 1.344206, 4.708248, 7.628453 ]
+						enable_twist_limit = true
+						min_twist_angle = -8.8
+						max_twist_angle = 8.79
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "spine3"
+						child_body = "r_shoulder"
+						anchor_origin = [ -6.388147, 4.960776, -0.023235 ]
+						anchor_angles = [ 0.0, -45.0, 90.0 ]
+						collision_enabled = false
+						friction = 1.0
+						enable_swing_limit = true
+						swing_limit = 21.17
+						swing_offset_angle = [ 1.344206, 4.708248, 7.628453 ]
+						enable_twist_limit = true
+						min_twist_angle = -8.8
+						max_twist_angle = 8.79
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "l_shoulder"
+						child_body = "l_elbow"
+						anchor_origin = [ 10.48793, -0.207903, -0.360204 ]
+						anchor_angles = [ 60.1973, -37.082855, -26.550123 ]
+						collision_enabled = false
+						friction = 1.0
+						enable_swing_limit = true
+						swing_limit = 27.93
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -8.8
+						max_twist_angle = 8.79
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "spine3"
+						child_body = "r_shoulder"
+						anchor_origin = [ -6.388147, 4.960776, -0.023235 ]
+						anchor_angles = [ 0.0, 0.0, 0.0 ]
+						collision_enabled = false
+						friction = 1.0
+						enable_swing_limit = true
+						swing_limit = 90.0
+						swing_offset_angle = [ 1.344206, 4.708248, 7.628453 ]
+						enable_twist_limit = true
+						min_twist_angle = -8.8
+						max_twist_angle = 8.79
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "r_shoulder"
+						child_body = "r_elbow"
+						anchor_origin = [ -10.91655, 0.169175, -0.084798 ]
+						anchor_angles = [ -70.520836, -53.294632, 49.796963 ]
+						collision_enabled = false
+						friction = 1.0
+						enable_swing_limit = true
+						swing_limit = 27.93
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -8.8
+						max_twist_angle = 8.79
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "pelvis"
+						surface_prop = "default"
+						collision_prop = "default"
+						radius = 5.0
+						point0 = [ 3.0, 0.0, 0.0 ]
+						point1 = [ -3.0, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "spine1"
+						surface_prop = "default"
+						collision_prop = "default"
+						radius = 7.0
+						point0 = [ 4.433901, 3.882696, 1.19521 ]
+						point1 = [ -2.196429, 4.137552, 1.279137 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "spine3"
+						surface_prop = "default"
+						collision_prop = "default"
+						radius = 7.0
+						point0 = [ 3.835604, 1.930375, 1.200368 ]
+						point1 = [ -2.794726, 2.185231, 1.284297 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "head"
+						surface_prop = "default"
+						collision_prop = "default"
+						radius = 7.0
+						point0 = [ -0.088457, 11.114267, 1.197282 ]
+						point1 = [ 0.133241, 2.383735, 1.839973 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "l_hip"
+						surface_prop = "default"
+						collision_prop = "default"
+						radius = 3.0
+						point0 = [ -0.274395, -12.232923, 1.773697 ]
+						point1 = [ -0.162022, -5.618847, 1.173465 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "r_hip"
+						surface_prop = "default"
+						collision_prop = "default"
+						radius = 3.0
+						point0 = [ -0.034115, -12.284307, 1.321712 ]
+						point1 = [ 0.07553, -5.433509, 0.816353 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "l_knee"
+						surface_prop = "default"
+						collision_prop = "default"
+						radius = 3.0
+						point0 = [ 0.346343, -11.943104, -0.617565 ]
+						point1 = [ 0.373024, -2.847212, -0.586563 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "r_knee"
+						surface_prop = "default"
+						collision_prop = "default"
+						radius = 3.0
+						point0 = [ 0.730061, -12.170809, -1.36367 ]
+						point1 = [ 0.12579, -1.807207, 0.152536 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "l_shoulder"
+						surface_prop = "default"
+						collision_prop = "default"
+						radius = 3.0
+						point0 = [ 1.904656, 0.836592, -0.118114 ]
+						point1 = [ 9.570927, 0.209357, 0.358654 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "r_shoulder"
+						surface_prop = "default"
+						collision_prop = "default"
+						radius = 3.0
+						point0 = [ -1.366763, 0.316437, 0.526145 ]
+						point1 = [ -8.662356, 0.139429, 0.367065 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "l_elbow"
+						surface_prop = "default"
+						collision_prop = "default"
+						radius = 3.0
+						point0 = [ 1.904656, 0.836592, -0.118114 ]
+						point1 = [ 9.570927, 0.209357, 0.358654 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "r_elbow"
+						surface_prop = "default"
+						collision_prop = "default"
+						radius = 3.0
+						point0 = [ -1.366763, 0.316437, 0.526145 ]
+						point1 = [ -8.662356, 0.139429, 0.367065 ]
+					},
+				]
+			},
+		]
+		model_archetype = "generic_actor_model"
+		primary_associated_entity = "generic_actor"
+		anim_graph_name = "models/citizen/citizen.vanmgrph"
+	}
+}

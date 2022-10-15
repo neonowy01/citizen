@@ -1,0 +1,74 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models\\dmx\\mesh\\flood_gate.dmx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "world.metal_combine"
+						collision_prop = "default"
+						origin = [ 55.944454, -26.092655, -180.436737 ]
+						angles = [ -0.0, 0.0, 4.157638 ]
+						dimensions = [ 32.230919, 2.598974, 87.444809 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						name = "_copy"
+						parent_bone = ""
+						surface_prop = "world.metal_combine"
+						collision_prop = "default"
+						origin = [ 24.070265, -28.088213, -179.799911 ]
+						angles = [ -0.0, 0.0, 4.157638 ]
+						dimensions = [ 32.230919, 2.598974, 88.721565 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						name = "_copy_copy"
+						parent_bone = ""
+						surface_prop = "world.metal_combine"
+						collision_prop = "default"
+						origin = [ -7.666729, -25.919352, -180.044418 ]
+						angles = [ -0.0, 0.0, 4.157638 ]
+						dimensions = [ 32.230919, 2.598974, 88.231239 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						name = "_copy_copy_copy"
+						parent_bone = ""
+						surface_prop = "world.metal_combine"
+						collision_prop = "default"
+						origin = [ -40.226398, -23.959461, -180.34639 ]
+						angles = [ -0.0, 0.0, 4.157638 ]
+						dimensions = [ 32.230919, 2.598974, 87.625755 ]
+					},
+				]
+			},
+		]
+		model_archetype = "animated_model"
+		primary_associated_entity = "prop_dynamic"
+		anim_graph_name = ""
+	}
+}
